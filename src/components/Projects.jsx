@@ -18,7 +18,7 @@ const projects = [
     tech: ["Flutter", "Dart", "TFLite", "ESP32", "Sensors"],
     link: "#",
     githubUrl: "#",
-    images: ["/images/LS1.jpg", "/images/LS2.jpg", "/images/LS3.jpg", "/images/LS4.jpg", "/images/LS5.jpg",],
+    images: [`${import.meta.env.BASE_URL}images/LS1.jpg`, `${import.meta.env.BASE_URL}images/LS2.jpg`, `${import.meta.env.BASE_URL}images/LS3.jpg`, `${import.meta.env.BASE_URL}images/LS4.jpg`, `${import.meta.env.BASE_URL}images/LS5.jpg`],
     orientation: "portrait",
   },
   {
@@ -37,7 +37,7 @@ const projects = [
     tech: ["Flutter", "Dart", "Speech-to-Text API"],
     link: "#",
     githubUrl: "#",
-    images: ["/images/ST1.jpg", "/images/ST2.jpg", "/images/ST3.jpg", "/images/ST4.jpg", "/images/ST5.jpg", "/images/ST6.jpg"],
+    images: [`${import.meta.env.BASE_URL}images/ST1.jpg`, `${import.meta.env.BASE_URL}images/ST2.jpg`, `${import.meta.env.BASE_URL}images/ST3.jpg`, `${import.meta.env.BASE_URL}images/ST4.jpg`, `${import.meta.env.BASE_URL}images/ST5.jpg`, `${import.meta.env.BASE_URL}images/ST6.jpg`],
     orientation: "portrait",
   },
   {
@@ -56,7 +56,7 @@ const projects = [
     tech: ["PHP/Laravel", "Docker", "MySQL", "Bootstrap", "HTML/CSS"],
     link: "#",
     githubUrl: "#",
-    images: ["/images/MP1.png", "/images/MP2.png", "/images/MP3.png", "/images/MP4.png"],
+    images: [`${import.meta.env.BASE_URL}images/MP1.png`, `${import.meta.env.BASE_URL}images/MP2.png`, `${import.meta.env.BASE_URL}images/MP3.png`, `${import.meta.env.BASE_URL}images/MP4.png`],
     orientation: "landscape",
   },
 ];

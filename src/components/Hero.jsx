@@ -57,7 +57,7 @@ export default function Hero() {
                         <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-slate-800 bg-slate-900 shadow-2xl flex items-center justify-center">
                             {/* Replace '/images/profile.jpg' with your actual image path */}
                             <img
-                                src="/images/IDPIC.png"
+                                src={`${import.meta.env.BASE_URL}images/IDPIC.png`}
                                 alt="Kent's Profile"
                                 className="w-full h-full object-cover relative z-10"
                                 onError={(e) => {
