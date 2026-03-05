@@ -30,8 +30,7 @@ export default function Contact() {
                 {/* Social Links & Copyright */}
                 <div className="flex flex-col md:flex-row justify-between items-center border-t border-slate-800 pt-8 mt-8">
                     <p className="text-slate-500 text-sm mb-4 md:mb-0">
-                        © {new Date().getFullYear()} Designed & Built by a 4th Year BSIT
-                        Student.
+                        © {new Date().getFullYear()} Designed & Built by Kent Jake Sanico, a 4th Year BSIT Student.
                     </p>
 
                     <div className="flex space-x-6">

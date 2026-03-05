@@ -109,7 +109,7 @@ export default function Modal({ isOpen, onClose, project }) {
                   <>
                     <button
                       onClick={prevImage}
-                      className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-slate-900/80 text-white rounded-full hover:bg-cyan-500 hover:text-slate-900 transition-colors opacity-0 group-hover:opacity-100"
+                      className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-slate-900/80 text-white rounded-full hover:bg-cyan-500 hover:text-slate-900 transition-colors md:opacity-0 md:group-hover:opacity-100"
                     >
                       <svg
                         className="w-5 h-5"
@@ -127,7 +127,7 @@ export default function Modal({ isOpen, onClose, project }) {
                     </button>
                     <button
                       onClick={nextImage}
-                      className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-slate-900/80 text-white rounded-full hover:bg-cyan-500 hover:text-slate-900 transition-colors opacity-0 group-hover:opacity-100"
+                      className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-slate-900/80 text-white rounded-full hover:bg-cyan-500 hover:text-slate-900 transition-colors md:opacity-0 md:group-hover:opacity-100"
                     >
                       <svg
                         className="w-5 h-5"
